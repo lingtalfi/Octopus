@@ -60,7 +60,7 @@ What's special about Octopus?
 - Octopus handles the lazy instantiation of your services for you, which means a service is only instantiated once when you call it. Every subsequent call to the same service returns the cached instance.
 - Octopus can be exported as a static php class, thus improving the speed and the performances of your app in production.
 - Octopus can also work in dynamic mode, making development sessions easier.
-- To create services, Octopus uses the [sic notation](#todo), which makes definition of services a trivial task.
+- To create services, Octopus uses the [sic notation](https://github.com/lingtalfi/NotationFan/blob/master/sic.md), which makes definition of services a trivial task.
 
 
 
