@@ -1,11 +1,11 @@
 <?php
 
-namespace Octopus\ServiceContainer;
+namespace Ling\Octopus\ServiceContainer;
 
 
-use Octopus\Exception\OctopusServiceErrorException;
-use SicTools\HotServiceResolver;
-use SicTools\SicTool;
+use Ling\Octopus\Exception\OctopusServiceErrorException;
+use Ling\SicTools\HotServiceResolver;
+use Ling\SicTools\SicTool;
 
 /**
  *

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Octopus\ServiceContainer;
+namespace Ling\Octopus\ServiceContainer;
 
 
-use Octopus\Exception\OctopusServiceErrorException;
+use Ling\Octopus\Exception\OctopusServiceErrorException;
 
 interface OctopusServiceContainerInterface
 {

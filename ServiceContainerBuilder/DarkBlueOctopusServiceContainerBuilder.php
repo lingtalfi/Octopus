@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Octopus\ServiceContainerBuilder;
+namespace Ling\Octopus\ServiceContainerBuilder;
 
 
-use ClassCreator\Creator\ClassCreator;
-use ClassCreator\Creator\CommentCreator;
-use ClassCreator\Method\Method;
-use Octopus\ServiceContainer\BlueOctopusServiceContainer;
-use SicTools\ColdServiceResolver;
-use SicTools\SicTool;
+use Ling\ClassCreator\Creator\ClassCreator;
+use Ling\ClassCreator\Creator\CommentCreator;
+use Ling\ClassCreator\Method\Method;
+use Ling\Octopus\ServiceContainer\BlueOctopusServiceContainer;
+use Ling\SicTools\ColdServiceResolver;
+use Ling\SicTools\SicTool;
 
 
 /**
@@ -54,7 +54,7 @@ class DarkBlueOctopusServiceContainerBuilder extends ColdServiceResolver
 
     /**
      * This property holds the class creator used to build the class file.
-     * See more details in the [class creator documentation](https://github.com/karayabin/universe-snapshot/tree/master/universe/ClassCreator).
+     * See more details in the [class creator documentation](https://github.com/karayabin/universe-snapshot/tree/master/universe/Ling/ClassCreator).
      *
      * A new class creator is called every time the build method is called.
      *
@@ -96,7 +96,7 @@ class DarkBlueOctopusServiceContainerBuilder extends ColdServiceResolver
      * @param $file
      * @param array $options
      *      - classCreator: an instance of the ClassCreator\Creator\ClassCreator. If not set, the default ClassCreator will be used.
-     *          See [ClassCreator documentation](https://github.com/karayabin/universe-snapshot/tree/master/universe/ClassCreator) for more details.
+     *          See [ClassCreator documentation](https://github.com/karayabin/universe-snapshot/tree/master/universe/Ling/ClassCreator) for more details.
      *      - profile: ClassCreator\Profile\Profile, the profile (see class creator documentation for more details). If not set, the default profile will be used.
      *      - namespace: null|string, a namespace to use, null by default
      *      - useStatements: array, the use statements to use (see class creator documentation examples for exact syntax).

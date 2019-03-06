@@ -14,7 +14,7 @@ Install
 ==========
 Using the [uni](https://github.com/lingtalfi/universe-naive-importer) command.
 ```bash
-uni import Octopus
+uni import Ling/Octopus
 ```
 
 Or just download it and place it where you want otherwise.

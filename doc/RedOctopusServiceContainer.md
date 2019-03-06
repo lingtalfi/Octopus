@@ -110,7 +110,7 @@ string(11) "I'm running"
 Example #3: playing with sic notation
 -------------------------------------
 
-We can use all examples from the [sicTools's hot resolver documentation](https://github.com/karayabin/universe-snapshot/blob/master/universe/SicTools/doc/HotServiceResolver.md)
+We can use all examples from the [sicTools's hot resolver documentation](https://github.com/karayabin/universe-snapshot/blob/master/universe/Ling/SicTools/doc/HotServiceResolver.md)
 to build the configuration array.
 
 

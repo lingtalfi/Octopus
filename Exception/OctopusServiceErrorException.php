@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Octopus\Exception;
+namespace Ling\Octopus\Exception;
 
 
 /**

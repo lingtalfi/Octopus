@@ -103,7 +103,7 @@ Below is the content of this generated class:
 ```php
 <?php
 
-use Octopus\ServiceContainer\BlueOctopusServiceContainer;
+use Ling\Octopus\ServiceContainer\BlueOctopusServiceContainer;
 
 /**
 * This class is the dark blue octopus service container.
@@ -256,9 +256,9 @@ The $options argument is an array with the following keys:
 
 - **classCreator**: an instance of the **ClassCreator\Creator\ClassCreator**. If not set, the default ClassCreator will be used.
 
-    See [ClassCreator documentation](https://github.com/karayabin/universe-snapshot/tree/master/universe/ClassCreator) for more details.
+    See [ClassCreator documentation](https://github.com/karayabin/universe-snapshot/tree/master/universe/Ling/ClassCreator) for more details.
 
-- **profile**: **ClassCreator\Profile\Profile**, the profile (see [class creator documentation profile](https://github.com/karayabin/universe-snapshot/tree/master/universe/ClassCreator#profile) for more details). If not set, the default profile will be used.
+- **profile**: **ClassCreator\Profile\Profile**, the profile (see [class creator documentation profile](https://github.com/karayabin/universe-snapshot/tree/master/universe/Ling/ClassCreator#profile) for more details). If not set, the default profile will be used.
 
 - **namespace**: null|string, a namespace to use, null by default
 

@@ -1,16 +1,16 @@
 <?php
 
-namespace Octopus\ServiceContainer;
+namespace Ling\Octopus\ServiceContainer;
 
 
-use Octopus\Exception\OctopusServiceErrorException;
-use SicTools\HotServiceResolver;
-use SicTools\SicTool;
+use Ling\Octopus\Exception\OctopusServiceErrorException;
+use Ling\SicTools\HotServiceResolver;
+use Ling\SicTools\SicTool;
 
 /**
  * The RedOctopusServiceContainer class is a hot service container based on the sic notation.
  *
- * @see https://github.com/karayabin/universe-snapshot/blob/master/universe/NotationFan/sic.md
+ * @see https://github.com/karayabin/universe-snapshot/blob/master/universe/Ling/NotationFan/sic.md
  *
  *
  * Hot means that the sic notation is resolved on the fly when the service is actually called for the first time.
