@@ -89,6 +89,10 @@ Octopus comes with two versions:
 History Log
 ------------------
 
+- 1.4.2 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.4.1 -- 2020-12-01
 
     - update blue octopus, add getOwnMethods method
